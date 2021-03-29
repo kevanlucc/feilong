@@ -12,4 +12,4 @@ jobs:
   foo:
     steps:
       - name: foo
-        run: echo "do stuff involving [${{ secrets.TEST_SECRETT }}]"
+        run: echo "do stuff involving [${{ secrets.TEST_SECRET }}]"
